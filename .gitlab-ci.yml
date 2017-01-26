@@ -1,0 +1,5 @@
+pdf:
+  script: xelatex resume.tex
+  artifacts:
+    paths:
+    - resume.pdf
