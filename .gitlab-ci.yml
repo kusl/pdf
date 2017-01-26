@@ -1,5 +1,7 @@
-pdf:
-  script: xelatex resume.tex
+compile_pdf:
+  image: aergus/latex
+  script:
+    - latexmk -pdf resume.tex
   artifacts:
     paths:
-    - resume.pdf
+      - resume.pdf
